@@ -129,41 +129,40 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-8">
             <ScrollReveal delay={0.1}>
-              <article className="bg-bg-card border border-border-light p-8 hover:shadow-sm transition-shadow duration-300">
+              <a href="/news/giving-architecture" className="block bg-bg-card border border-border-light p-8 hover:shadow-sm transition-shadow duration-300 no-underline">
                 <p className="text-xs tracking-widest uppercase text-accent mb-3">
                   Perspective
                 </p>
                 <h3 className="font-serif text-xl md:text-2xl text-text mb-3 leading-snug">
-                  Why Most Philanthropic Strategies Fail Before They Start
+                  The Giving Architecture
                 </h3>
                 <p className="text-text-muted text-sm leading-relaxed">
-                  The gap between intention and impact isn&apos;t about
-                  resources — it&apos;s about architecture. A look at what
-                  separates effective giving from well-meaning gestures.
+                  American philanthropy doesn&apos;t have a generosity problem.
+                  It has a design problem.
                 </p>
                 <p className="mt-4 text-accent text-sm font-semibold">
-                  Coming soon
+                  Read essay →
                 </p>
-              </article>
+              </a>
             </ScrollReveal>
 
             <ScrollReveal delay={0.2}>
-              <article className="bg-bg-card border border-border-light p-8 hover:shadow-sm transition-shadow duration-300">
+              <a href="/news/proximity" className="block bg-bg-card border border-border-light p-8 hover:shadow-sm transition-shadow duration-300 no-underline">
                 <p className="text-xs tracking-widest uppercase text-accent mb-3">
                   Field Notes
                 </p>
                 <h3 className="font-serif text-xl md:text-2xl text-text mb-3 leading-snug">
-                  Building a Grantmaking Program from Scratch
+                  What the Field Teaches
                 </h3>
                 <p className="text-text-muted text-sm leading-relaxed">
-                  From defining your mission to measuring outcomes — a
-                  practical framework for philanthropists, foundations, and
-                  mission-driven organizations ready to formalize their giving.
+                  Most grantmakers have never sat in the room with the people
+                  their grants are meant to help. That&apos;s not a minor gap.
+                  It&apos;s the whole problem.
                 </p>
                 <p className="mt-4 text-accent text-sm font-semibold">
-                  Coming soon
+                  Read essay →
                 </p>
-              </article>
+              </a>
             </ScrollReveal>
           </div>
         </div>
