@@ -118,12 +118,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Founder's Corner */}
+      {/* Thought Leadership */}
       <section className="py-24 px-6 bg-bg-warm">
         <div className="max-w-5xl mx-auto">
           <ScrollReveal>
             <h2 className="font-serif text-3xl md:text-4xl font-light mb-12 text-text">
-              Founder&apos;s Corner
+              Thought Leadership
             </h2>
           </ScrollReveal>
 
@@ -131,7 +131,7 @@ export default function Home() {
             <ScrollReveal delay={0.1}>
               <a href="/news/giving-architecture" className="block bg-bg-card border border-border-light p-8 hover:shadow-sm transition-shadow duration-300 no-underline">
                 <p className="text-xs tracking-widest uppercase text-accent mb-3">
-                  Perspective
+                  Founder&apos;s Corner
                 </p>
                 <h3 className="font-serif text-xl md:text-2xl text-text mb-3 leading-snug">
                   The Giving Architecture
@@ -149,7 +149,7 @@ export default function Home() {
             <ScrollReveal delay={0.2}>
               <a href="/news/proximity" className="block bg-bg-card border border-border-light p-8 hover:shadow-sm transition-shadow duration-300 no-underline">
                 <p className="text-xs tracking-widest uppercase text-accent mb-3">
-                  Field Notes
+                  Founder&apos;s Corner
                 </p>
                 <h3 className="font-serif text-xl md:text-2xl text-text mb-3 leading-snug">
                   What the Field Teaches
