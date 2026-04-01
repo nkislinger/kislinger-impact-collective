@@ -12,11 +12,13 @@ export default function HeroVideo({
   overlayOpacity?: number;
 }) {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(true);
+  const [ready, setReady] = useState(false);
 
   useEffect(() => {
     const mq = window.matchMedia("(max-width: 768px)");
     setIsMobile(mq.matches);
+    setReady(true);
 
     const handler = (e: MediaQueryListEvent) => setIsMobile(e.matches);
     mq.addEventListener("change", handler);
@@ -24,10 +26,10 @@ export default function HeroVideo({
   }, []);
 
   useEffect(() => {
-    if (!isMobile && videoRef.current) {
+    if (ready && !isMobile && videoRef.current) {
       videoRef.current.play().catch(() => {});
     }
-  }, [isMobile]);
+  }, [isMobile, ready]);
 
   return (
     <>
