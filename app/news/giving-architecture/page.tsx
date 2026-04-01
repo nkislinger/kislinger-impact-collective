@@ -227,13 +227,11 @@ export default function GivingArchitecturePage() {
 
         <div className="prose">
 
-          <p>I spent years making grants without really knowing what I was doing.</p>
+          <p>Americans gave $557 billion to charity last year. By any measure, this is a generous country. Generosity is not the problem.</p>
 
-          <p>At the Entertainment Industry Foundation, working alongside Viola Davis on grant programs, I thought the work was sophisticated. We had strategies, metrics, theories of change. What I didn&apos;t have was any feel for what actually happens when a grant lands — or fails to. I came from the Governor&apos;s Office. I understood policy. I had no idea what it meant to run a program, sit with a client, or make payroll on a restricted budget.</p>
+          <p>The problem is architecture. How giving is structured. Who decides where it goes. What gets funded — and what never does. We have built an enormous philanthropic infrastructure that optimizes for donor comfort, punishes the organizations it claims to support, and reproduces the very inequities it was designed to address. The machinery is impressive. The outcomes are not.</p>
 
-          <p>Going back to school for my master&apos;s in clinical psychology changed that. Working with students at Burbank High School, treating clients at a free mental health clinic, running an organization — each of these put me in rooms I&apos;d previously only read about. When I returned to grantmaking with that experience, I read proposals differently. I asked different questions. I noticed what I&apos;d been missing.</p>
-
-          <p>The problem with American philanthropy isn&apos;t generosity. We have plenty of that. The problem is architecture — how giving is structured, who decides, what gets funded, and what never does.</p>
+          <p>This essay is about the machinery. Not about any single grant or grantmaker, but about the system itself — the incentives, the assumptions, the design choices that shape where $557 billion actually lands. Because the answer to why American philanthropy underperforms is not that people don&apos;t care enough. It&apos;s that caring has been given the wrong container.</p>
 
         </div>
 
