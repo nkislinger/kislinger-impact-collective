@@ -219,7 +219,7 @@ export default function ProximityPage() {
           <div className="byline-avatar">NK</div>
           <div className="byline-meta">
             <div className="byline-name">Nick Kislinger</div>
-            <div className="byline-role">Executive Director, Flourish Trust · Founder, KIC</div>
+            <div className="byline-role">Founder, KIC</div>
           </div>
           <div className="byline-read">7 min read</div>
         </div>

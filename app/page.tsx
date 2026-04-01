@@ -118,12 +118,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* News & Insights */}
+      {/* Founder's Corner */}
       <section className="py-24 px-6 bg-bg-warm">
         <div className="max-w-5xl mx-auto">
           <ScrollReveal>
             <h2 className="font-serif text-3xl md:text-4xl font-light mb-12 text-text">
-              News &amp; Insights
+              Founder&apos;s Corner
             </h2>
           </ScrollReveal>
 
