@@ -1,47 +1,11 @@
-"use client";
-
-import { useEffect, useRef, useState } from "react";
-
-const VIDEO_URL = "/forest-compressed.mp4";
-
 export default function ServicesHero() {
-  const videoRef = useRef<HTMLVideoElement>(null);
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const mq = window.matchMedia("(max-width: 768px)");
-    setIsMobile(mq.matches);
-    const handler = (e: MediaQueryListEvent) => setIsMobile(e.matches);
-    mq.addEventListener("change", handler);
-    return () => mq.removeEventListener("change", handler);
-  }, []);
-
-  useEffect(() => {
-    if (!isMobile && videoRef.current) {
-      videoRef.current.play().catch(() => {});
-    }
-  }, [isMobile]);
-
   return (
     <section className="relative min-h-[70vh] flex items-center justify-center px-6 overflow-hidden">
-      {/* Video — desktop */}
-      {!isMobile && (
-        <video
-          ref={videoRef}
-          className="absolute inset-0 w-full h-full object-cover"
-          src={VIDEO_URL}
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="auto"
-        />
-      )}
-
-      {/* Solid color fallback — mobile */}
-      {isMobile && (
-        <div className="absolute inset-0 w-full h-full bg-[#1a2e1a]" />
-      )}
+      {/* Background image */}
+      <div
+        className="absolute inset-0 w-full h-full bg-cover bg-center"
+        style={{ backgroundImage: "url('/aspen-hero.jpg')" }}
+      />
 
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/40" />
