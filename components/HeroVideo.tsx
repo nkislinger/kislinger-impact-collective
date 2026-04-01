@@ -46,10 +46,7 @@ export default function HeroVideo({
       )}
 
       {isMobile && (
-        <div
-          className="absolute inset-0 w-full h-full bg-cover bg-center"
-          style={{ backgroundImage: `url(${posterSrc})` }}
-        />
+        <div className="absolute inset-0 w-full h-full bg-[#1a1a1a]" />
       )}
 
       <div

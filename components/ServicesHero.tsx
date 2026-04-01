@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
-const VIDEO_URL = "/forest-hero.mp4";
+const VIDEO_URL = "/forest-compressed.mp4";
 
 export default function ServicesHero() {
   const videoRef = useRef<HTMLVideoElement>(null);
