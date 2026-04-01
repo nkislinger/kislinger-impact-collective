@@ -372,21 +372,21 @@ export default function GivingArchitecturePage() {
           <div className="author-box-label">About the author</div>
           <div className="author-box-name">Nick Kislinger</div>
           <div className="author-box-bio">
-            Nick is the Executive Director of Flourish Trust, a philanthropic foundation focused on mental health, food systems, and human flourishing. He is the founder of Kislinger Impact Collective, a boutique philanthropic advisory firm serving family offices and private foundations. He previously served as Executive Director of Summit Impact and as Chief of Staff to California&apos;s Secretary of Education. He is completing a master&apos;s in clinical psychology with a clinical placement at Burbank High School.
+            Nick is the founder of Kislinger Impact Collective, a boutique philanthropic advisory firm serving family offices and private foundations. He is completing a master&apos;s in clinical psychology with a clinical placement at Burbank High School.
           </div>
         </div>
 
         {/* RELATED */}
         <div className="related">
           <div className="related-label">Also from the Founder&apos;s Corner</div>
-          <div className="related-link">
+          <a href="/news/proximity" className="related-link">
             <span className="related-title">What Sitting With a Teenager in Crisis Taught Me About Grantmaking</span>
             <span className="related-arrow">→</span>
-          </div>
-          <div className="related-link">
+          </a>
+          <a href="/impact-report" className="related-link">
             <span className="related-title">KIC Impact Landscape: Where Philanthropic Capital Is Moving in 2025</span>
             <span className="related-arrow">→</span>
-          </div>
+          </a>
         </div>
 
       </article>
