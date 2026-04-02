@@ -118,12 +118,17 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Thought Leadership */}
-      <section className="py-24 px-6 bg-bg-warm">
-        <div className="max-w-5xl mx-auto">
+      {/* Ideas */}
+      <section className="relative py-24 px-6 overflow-hidden">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: "url('/ideas-nature.jpg')" }}
+        />
+        <div className="absolute inset-0 bg-black/50" />
+        <div className="relative z-10 max-w-5xl mx-auto">
           <ScrollReveal>
-            <h2 className="font-serif text-3xl md:text-4xl font-light mb-12 text-text">
-              Thought Leadership
+            <h2 className="font-serif text-3xl md:text-4xl font-light mb-12 text-white">
+              Ideas
             </h2>
           </ScrollReveal>
 
