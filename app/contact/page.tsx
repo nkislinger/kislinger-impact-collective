@@ -130,6 +130,11 @@ export default function ContactPage() {
           </ScrollReveal>
         )}
       </div>
+      <div className="mt-16 text-center text-sm text-gray-500">
+  <p className="font-semibold text-gray-700">Kislinger Impact Collective</p>
+  <p>4845 Pearl East Cir, Ste 118</p>
+  <p>Boulder, CO 80301</p>
+</div>
     </section>
   );
 }
